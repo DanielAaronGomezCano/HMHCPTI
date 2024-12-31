@@ -2,13 +2,16 @@
 module.exports = {
 	content: ["./src/**/*.{js,html}"],
 	theme: {
-		fontFamily: {
+			fontFamily: {
 			'man':['Manjari'],'ques':['Questrial'],'did':['Didact Gothic'],
-		},
-		
-		extend: {
-			colors: {'azul-oscuro':'#001e2b'}
-		},
-		},
-		plugins:[],
+			},
+			extend: {
+				colors: {'azul-oscuro':'#001e2b'}
+			},
+			container: {
+				right: 'auto',
+				padding: '1rem',
+			},
+			},
+plugins:[],
 	}
